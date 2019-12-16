@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CHATeado</title>
+    <link rel="sortcut icon" href="fotos_perfil/sad.png" type="image/png" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="adminlte.min.css">
+    <link rel="stylesheet" href="estilos.scss">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<body style="background-color: #343a40;" class="hold-transition register-page">
+    <aside class="wrapper sidebar-dark-primary">
+        <div id="testeF" class="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition">
+            <!--
+            <a class="text-center brand-link">
+                <img src="users.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">Grupo
+            </a>
+            -->
+            <form class="lockscreen-credentials">
+                <div class="btn btn-default btn-file brand-link" style="background-color: #343a40; margin-left: 44%;">
+                    <img src="users.jpg" alt="Message User Image" class="brand-image img-circle elevation-2" style="maxWidth: 80px; maxHeight: 80px; margin-top: 2px;"><input type="file" name="attachment"></img>
+
+
+                </div>
+            </form>
+            <form action="#" method="POST">
+                <span style="margin-left: 47%; font-size: 30px;" class="brand-text font-weight-light!important">Grupo</span>
+                <div class="input-group mb-3">
+                    <input type="text" style="background-color: #343a40;" class="form-control rounded-0 font-weight-light!important" placeholder="Alterar Nome do Grupo">
+                    <span class="input-group-append">
+                              <button type="button" style="background-color: #343a40;" class="btn btn-info btn-flat">Alterar</button>
+                            </span>
+                </div>
+            </form>
+
+            <form action="#" method="POST">
+                <div class="text-center brand-link">
+                    <a href="Chat2.html">Cancelar</a>
+                </div>
+            </form>
+            <form action="#" method="POST">
+                <div class="text-center brand-link" onclick="return confirm('Tem certeza que deseja apagar todas as mensagens deste grupo? Esta opção não tem retorno!')">
+                    <a href="#">Limpar Conversa</a>
+                </div>
+            </form>
+            <form action="#" method="POST">
+                <div class="text-center brand-link">
+                    <a href="addMembro.html">Adicionar Membro</a>
+                </div>
+            </form>
+            <ul class="nav nav-sidebar flex-column sidebar-dark-primary align-content-lg-center" data-widget="treeview" role="menu">
+                <form action="#" method="POST">
+                    <li class="nav-item" style="margin: auto;" onclick="return confirm('Tem certeza que deseja remover este membro deste grupo?')">
+                        <a href="grupoMembros.html" class="nav-link">
+                            <img src="user1-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">Alexander Pierce
+                            <i class="fas fa-trash" style="color: gray"> </i>
+                        </a>
+                    </li>
+                </form>
+                <form action="#" method="POST" style="margin: auto;">
+                    <li class="nav-item" onclick="return confirm('Tem certeza que deseja remover este membro deste grupo?')">
+                        <!-- Outro administrador como admin
+                        <a href="remove" class="nav-link">
+                        <img src="user3-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">Maiaria
+                        <i class="fas fa-trash" style="color: gray"> </i>
+                    </a>
+                    -->
+                        <a href="grupoMembros.html" class="nav-link">
+                            <img src="user3-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">Maiaria
+                            <i class="fas fa-trash" style="color: gray"> </i>
+                        </a>
+                    </li>
+                </form>
+                <form action="#" method="POST" style="margin: auto;">
+                    <li class="nav-link" style="margin: auto;">
+                        <!-- Você como membro normal do grupo e algum administrador no grupo
+                    <a href="Chat.html" class="nav-link" onclick="return confirm('Tem certeza que deseja sair deste grupo? Esta opção não tem retorno!')">
+                        <img src="perfil.jpg" class="brand-image img-circle elevation-3"> Você
+                        <i class="fas fa-door-closed" style="color: red"> </i>
+                    </a>
+                    -->
+                        <a href="Chat.html" class="nav-link" onclick="return confirm('Tem certeza que deseja sair deste grupo? Esta opção não tem retorno!')">
+                            <img src="perfil.jpg" class="brand-image img-circle elevation-3">
+                            <p style="color: green;">
+                                Você
+                            </p>
+                            <i class="fas fa-door-closed" style="color: red"> </i>
+                        </a>
+                    </li>
+                </form>
+            </ul>
+        </div>
+    </aside>
+</body>
+
+</html>

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHATeado</title>
+    <link rel="sortcut icon" href="sad.png" type="image/gif" />
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="estilos.scss">
+    <!--
+    <link rel="stylesheet" href="OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="OverlayScrollbars.css">-->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="adminlte.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<body style="background-color: #343a40;" class="hold-transition sidebar-dark-primary">
+    <div class="main-header">
+        <section class="content sidebar-dark-primary">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-prirary cardutline direct-chat direct-chat-primary">
+                            <div class="nav nav-pills nav-sidebar nav-child-indent flex-column" data-widget="treeview" role="menu">
+                                <li class="nav-item sidebar-dark-primary">
+                                    <a href="grupoMembros.html" class="nav-link">
+                                        <img src="users.jpg" alt="User Image" class="brand-image img-circle elevation-2" style="height: 45px!important;">
+                                        <i class="far"></i> Grupo
+                                    </a>
+                                    <!--
+                                            <a href="#" class="nav-link">
+                                                <img src="sad.png" alt="User Image" class="brand-image img-circle elevation-2" style="height: 45px!important;">
+                                                <i class="far fa-circle text-danger"></i> Alexander Pierce
+                                            </a>
+                                            -->
+                                    <div class="dropdown-divider"></div>
+                                </li>
+                            </div>
+                            <div id="youngBenito" class="card-body sidebar-dark-primary">
+                                <div id="testeF" class="direct-chat-messages" style="height:500px!important;">
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Alexander Pierce</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user1-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Is this template really for free? That's unbelievable!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Maiaria</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user3-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Uma mensagem aleatoria.
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Maiaria</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user3-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Uma mensagem aleatoria.
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Alexander Pierce</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user1-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Is this template really for free? That's unbelievable!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Maiaria</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user3-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Uma mensagem aleatoria.
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Maiaria</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user3-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Uma mensagem aleatoria.
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-left">Maiaria</span>
+                                            <span class="direct-chat-timestamp float-right">2 Jan 2:00 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="user3-128x128.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Outra mensagem aleatoria.
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            Rasdfafd
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better
+                                            believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!You better believe it!
+                                        </div>
+                                    </div>
+                                    <div class="direct-chat-msg right">
+                                        <div class="direct-chat-infos clearfix">
+                                            <span class="direct-chat-name float-right">Você</span>
+                                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                        </div>
+                                        <img class="direct-chat-img" src="perfil.jpg" alt="Message User Image">
+                                        <div class="direct-chat-text">
+                                            You better believe it!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="direct-chat-contacts">
+                                    <ul class="contacts-list">
+                                        <li>
+                                            <a href="#">
+                                                <img class="contacts-list-img" src="user1-128x128.jpg">
+                                                <div class="contacts-list-info">
+                                                    <span class="contacts-list-name">
+                                                        Count Dracula
+                                                        <small class="contacts-list-date float-right">2/28/2015</small>
+                                                    </span>
+                                                    <span class="contacts-list-msg">How have you been? I was...</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer sidebar-dark-primary">
+                                <div class="dropdown-divider"></div>
+                                <form action="#" method="post">
+                                    <div class="input-group">
+                                        <input type="text" name="message" placeholder="Mensagem ..." class="form-control">
+                                        <span class="input-group-append">
+                                            <button type="submit" class="btn btn-primary">Send</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <nav class="mt-2">
+            <ul class="nav nav-treeview">
+                <li class="nav-item">
+                    <a href="alteraPerfil.html" class="nav-link">
+                        <img src="perfil.jpg" alt="Message User Image" class="brand-image img-circle elevation-2">
+                        <span class="brand-text font-weight-light">Benito Marculano Ribeiro</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="dropdown-divider"></div>
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-edit"></i>
+                        <p>
+                            Opções
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="addAmigo.html" class="nav-link">
+                                <i class="fas fa-users" style="color: gray"> Adicionar</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="removeAmigo.html" class="nav-link">
+                                <i class="fas fa-user" style="color: gray"> Remover</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown-divider"></div>
+                            <a href="criarGrupos.html" class="nav-link">
+                                <i class="fas fa-users" style="color: gray"> Criar grupos</i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="dropdown-divider"></div>
+
+        <div id="testeF" class="sidebar os-host os-theme-light os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition os-host-overflow os-host-overflow-y" style="height:535px!important;">
+
+            <div class="os-scrollbar os-scrollbar-horizontal os-scrollbar-unusable os-scrollbar-auto-hidden">
+                <div class="os-scrollbar-track">
+                    <div class="os-scrollbar-handle" style="width: 100%; transform: translate(0px, 0px);"></div>
+                </div>
+            </div>
+            <div class="os-scrollbar os-scrollbar-vertical os-scrollbar-auto-hidden">
+                <div class="os-scrollbar-track">
+                    <div class="os-scrollbar-handle" style="height: 68.6927%; transform: translate(0px, 0px);"></div>
+                </div>
+            </div>
+            <div class="os-scrollbar-corner"></div>
+            <div class="os-resize-observer-host">
+                <div class="os-resize-observer observed" style="left: 0px; right: auto;"></div>
+            </div>
+            <div class="os-size-auto-observer" style="height: calc(100% + 1px); float: left;">
+                <div class="os-resize-observer observed"></div>
+            </div>
+
+            <div class="os-padding" style="height:80%!important;">
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar nav-child-indent flex-column" data-widget="treeview" role="menu">
+                        <li>
+                            <form action="#" method="get" class="sidebar-form">
+                                <div class="input-group">
+                                    <input type="text" name="q" class="form-control sidebar-dark-primary" placeholder="Busque...">
+                                    <span class="input-group-btn">
+                                                <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                                    <i class="fa fa-search"></i>
+                                                </button>
+                                            </span>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="Chat2.html" class="nav-link ">
+                                <img src="users.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Grupo
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user2-160x160.jpg" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="Chat1.html" class="nav-link ">
+                                <img src="user1-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">
+                                <p>
+                                    Alexander Pierce
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user5-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user5-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">
+                                <p>
+                                    Maiaria
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Aqui e o de cima
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user5-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user5-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">
+                                <p>
+                                    Maiaria
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="sad.png" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user4-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-2">
+                                <p>
+                                    Lucas ALberto
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="/docs/3.0/index.html" class="nav-link ">
+                                <img src="user3-128x128.jpg" alt="Message User Image" class="brand-image img-circle elevation-3">
+                                <p>
+                                    Maiaria
+                                </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </aside>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="adminlte.min.js"></script>
+    <script src="OverlayScrollbars.min.js"></script>
+    <script src="OverlayScrollbars.js"></script>
+    <script src="demo.js"></script>
+</body>
+
+</html>
