@@ -84,14 +84,10 @@ $usuario = new Usuario;
                             $nome = $usuario->retornaNome($id_amigo);
                             echo criarCabecalho($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
                             ?>
-                            <div id="youngBenito" class="card-body sidebar-dark-primary">
-                                <div id="testeF" class="direct-chat-messages" style="height:490px!important;" style="position:fixed!important;">
-                                    <div id="setTimeConversa">
-                                        <?php
-                                        echo criarConversa($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
-                                        ?>
-                                    </div>
-                                </div>
+                            <div id="setTimeConversa" class="sidebar-dark-primary direct-chat-messages" style="height:10%!important;" style="position:fixed!important;">
+                                <?php
+                                echo criarConversa($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
+                                ?>
                             </div>
                             <div class="card-footer sidebar-dark-primary">
                                 <div class="dropdown-divider"></div>

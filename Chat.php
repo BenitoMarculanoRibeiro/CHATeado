@@ -57,7 +57,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="scss/estilos.scss">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="adminlte.min.css">
+    <link rel="stylesheet" href="css/adminlte.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 
@@ -147,15 +147,15 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
             </div>
         </div>
     </aside>
-    <script src="sweetalert2.all.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <script src="jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/adminlte.min.js"></script>
-    <script src="OverlayScrollbars.min.js"></script>
-    <script src="OverlayScrollbars.js"></script>
-    <script src="demo.js"></script>
+    <script src="js/OverlayScrollbars.min.js"></script>
+    <script src="js/OverlayScrollbars.js"></script>
+    <script src="js/demo.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 
