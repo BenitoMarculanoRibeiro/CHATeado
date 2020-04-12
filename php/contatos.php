@@ -60,7 +60,7 @@ echo '
                                 </p>
                             </a>
                         </li>
-      '
+      ';
       echo '
   </tbody>
 </table>';
