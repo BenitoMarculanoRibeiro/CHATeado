@@ -72,37 +72,31 @@ $usuario = new Usuario;
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 
-<body style="background-color: #343a40;" class="hold-transition sidebar-dark-primary">
+<body style="background-color: #343a40;">
     <div class="main-header">
-        <section class="content sidebar-dark-primary">
-            <div class="container-fluid ">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card card-prirary cardutline direct-chat direct-chat-primary">
-                            <?php
-                            $foto = $usuario->retornaFoto($id_amigo);
-                            $nome = $usuario->retornaNome($id_amigo);
-                            echo criarCabecalho($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
-                            ?>
-                            <div id="setTimeConversa" class="sidebar-dark-primary direct-chat-messages" style="height:10%!important;" style="position:fixed!important;">
-                                <?php
-                                echo criarConversa($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
-                                ?>
-                            </div>
-                            <div class="card-footer sidebar-dark-primary">
-                                <div class="dropdown-divider"></div>
-                                <form action="php/EnviaMensagem.php" method="POST">
-                                    <div class="input-group">
-                                        <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem ..." class="form-control">
-                                        <span class="input-group-append">
-                                            <input type="hidden" id="id_amigo" name="id_amigo" value="<?php echo $id_amigo ?>">
-                                            <button type="submit" class="btn btn-primary">Enviar</button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
+        <section>
+            <div class="direct-chat-primary">
+                <?php
+                $foto = $usuario->retornaFoto($id_amigo);
+                $nome = $usuario->retornaNome($id_amigo);
+                echo criarCabecalho($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
+                ?>
+                <div id="setTimeConversa" class="sidebar-dark-primary direct-chat-messages" style="height: 700px!important;">
+                    <?php
+                    echo criarConversa($foto, $nome, $id_amigo, $_SESSION['id_usuario']);
+                    ?>
+                </div>
+                <div class="card-footer sidebar-dark-primary">
+                    <div class="dropdown-divider"></div>
+                    <form action="php/EnviaMensagem.php" method="POST">
+                        <div class="input-group">
+                            <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem ..." class="form-control">
+                            <span class="input-group-append">
+                                <input type="hidden" id="id_amigo" name="id_amigo" value="<?php echo $id_amigo ?>">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </span>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </section>
