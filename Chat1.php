@@ -67,6 +67,7 @@ $usuario = new Usuario;
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="scss/estilos.scss">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="css/adminlte.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
@@ -122,8 +123,7 @@ $usuario = new Usuario;
 
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-edit"></i>
-                        <p>
+                        <p class="botao_lateral">
                             Opções
                             <i class="fas fa-angle-left right"></i>
                         </p>
@@ -131,7 +131,7 @@ $usuario = new Usuario;
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="addAmigo.php" class="nav-link">
-                                <i class="fas fa-users" style="color: gray"> Adicionar Amigo</i>
+                                <i class="botao_lateral" style="color: gray"> Adicionar Amigo</i>
                             </a>
                         </li>
                         <!--li class="nav-item">
@@ -141,9 +141,8 @@ $usuario = new Usuario;
                             </a>
                         </li-->
                         <li class="nav-item">
-                            <div class="dropdown-divider"></div>
                             <a href="sair.php" class="nav-link">
-                                <i class="fas fa-users" style="color: gray"> Sair</i>
+                                <i class="botao_lateral" style="color: gray"> Sair</i>
                             </a>
                         </li>
                     </ul>
